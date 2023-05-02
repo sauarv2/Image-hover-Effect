@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  /* transition: all 0.5s; */
+}
+.container img:hover {
+  transform: scale(1.2) rotate(9deg);
+}
